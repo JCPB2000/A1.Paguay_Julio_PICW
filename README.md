@@ -72,77 +72,80 @@ La imagen diseñada está estructurada con un encabezado principal que presenta 
 # Análisis
 
 ## Los elementos que se pueden identificar son los siguientes:
-- <html>: Elemento raíz del documento.
-- <head>: Contiene metadatos, enlaces a hojas de estilo y scripts.
-- <body>: Alberga todo el contenido visible de la página.
-- <div>: Elemento contenedor usado en muchas partes.
-- <section>: Divide el contenido en secciones (como encuestas, derechos de autor).
-- <nav>: Barra de navegación para los menús.
-- <header>: Encabezado principal del sitio.
-- <footer>: Pie de página con enlaces e información legal.
-- <style>, <script>, <noscript>: Para estilos y scripts.
-- <link>: Cargar hojas de estilo externas.
-- <img>: Inserción de imágenes (como el logo y banners).
-- <a>: Enlaces de navegación y llamados a la acción.
-- <button>, <input>: Para la búsqueda y acciones de usuario.
-- Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeModal)
+
+```html
+<html>: Elemento raíz del documento.
+<head>: Contiene metadatos, enlaces a hojas de estilo y scripts.
+<body>: Alberga todo el contenido visible de la página.
+<div>: Elemento contenedor usado en muchas partes.
+<section>: Divide el contenido en secciones (como encuestas, derechos de autor).
+<nav>: Barra de navegación para los menús.
+<header>: Encabezado principal del sitio.
+<footer>: Pie de página con enlaces e información legal.
+<style>, <script>, <noscript>: Para estilos y scripts.
+<link>: Cargar hojas de estilo externas.
+<img>: Inserción de imágenes (como el logo y banners).
+<a>: Enlaces de navegación y llamados a la acción.
+<button>, <input>: Para la búsqueda y acciones de usuario.
+Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeModal)
+```
 
 # La página está estructurada de la siguiente forma:
  Encabezado (Header):
 Incluye el logo de Supermaxi (el placer de comprar).
 Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
 Botones destacados:
-Comprar por Tipti (botón naranja).
-Consulta por WhatsApp (botón verde).
+-Comprar por Tipti (botón naranja).
+-Consulta por WhatsApp (botón verde).
 Información sobre la tienda local: “Supermaxi San Gabriel, a 5.67 KMS.: Cambiar”.
 La barra de navegación justo debajo incluye las siguientes categorías:
-SÚPER OFERTAS
-AFILIACIÓN
-BENEFICIOS
-CATÁLOGOS
-EMPRESA
-LOCALES
-MÁS
-Contenido principal:
+-SÚPER OFERTAS
+-AFILIACIÓN
+-BENEFICIOS
+-CATÁLOGOS
+-EMPRESA
+-LOCALES
+-MÁS
+#### Contenido principal:
 Un área destacada con un banner principal donde aparece Carolina Sánchez (Chef ecuatoriana), con el mensaje:
-“ORGULLO ECUATORIANO”
-“Conoce las recetas más representativas”.
+- “ORGULLO ECUATORIANO”
+- “Conoce las recetas más representativas”.
 Botón rojo: “Descubre el Ecuador en Recetas”.
 Encima hay un aviso promocional:
  “OBTÉN EL 20% DE DTO. EN FLORES, FRUTAS Y VERDURAS, TODOS LOS MIÉRCOLES.”
-Modales y pop-ups:
+#### Modales y pop-ups:
 Ventanas emergentes configuradas en <div> con IDs como:
-promo-bugatti
-nollas-bugatti
-shareRecipeModal
+-promo-bugatti
+-nollas-bugatti
+-shareRecipeModal
 Estas aparecen para mostrar promociones especiales o para compartir recetas y otros contenidos de interés.
-Pie de página (Footer):
+#### Pie de página (Footer):
 Dividido en varias columnas visibles:
-▪️ LA EMPRESA:
+- LA EMPRESA:
 Trabaje con Nosotros
 Acerca de Supermaxi
 Responsabilidad Social
 Preguntas Frecuentes
-▪️ PROVEEDORES Y CONSUMIDORES:
+- PROVEEDORES Y CONSUMIDORES:
 Quieres ser proveedor de Corporación Favorita
 Facturación Electrónica
 Proveedores
-▪️ INFORMACIÓN DE INTERÉS:
+  - INFORMACIÓN DE INTERÉS:
 Términos y Condiciones
 Políticas de privacidad
 Convenio de afiliación
 Términos y Condiciones Renueve su Afiliación
 Derechos sobre datos personales
-▪️ Redes Sociales:
+- Redes Sociales:
 Íconos para:
-TikTok
-Facebook
-X (Twitter)
-Instagram
-YouTube
-▪️ Información destacada:
+-TikTok
+-Facebook
+-X (Twitter)
+-Instagram
+-YouTube
+#### Información destacada:
 Imagen de Crédito Favorito (servicio financiero).
-Franja inferior:
+#### Franja inferior:
 Texto legal:
 “Todos los derechos reservados® Corporación Favorita. 2025”
 
