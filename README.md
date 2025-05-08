@@ -1,5 +1,6 @@
-Parte 1: Crea tu primera página HTML
-Crea un archivo HTML que contenga los siguientes elementos:
+#Parte 1: Crea tu primera página HTML
+####Crea un archivo HTML que contenga los siguientes elementos:
+
 Un título principal usando la etiqueta <h1>.
 Un párrafo descriptivo usando la etiqueta <p>.
 Una imagen utilizando la etiqueta <img> (puedes usar una imagen de Internet con su URL).
