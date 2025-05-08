@@ -72,21 +72,20 @@ La imagen diseñada está estructurada con un encabezado principal que presenta 
 # Análisis
 
 ## Los elementos que se pueden identificar son los siguientes:
-
-<html>: Elemento raíz del documento.
-<head>: Contiene metadatos, enlaces a hojas de estilo y scripts.
-<body>: Alberga todo el contenido visible de la página.
-<div>: Elemento contenedor usado en muchas partes.
-<section>: Divide el contenido en secciones (como encuestas, derechos de autor).
-<nav>: Barra de navegación para los menús.
-<header>: Encabezado principal del sitio.
-<footer>: Pie de página con enlaces e información legal.
-<style>, <script>, <noscript>: Para estilos y scripts.
-<link>: Cargar hojas de estilo externas.
-<img>: Inserción de imágenes (como el logo y banners).
-<a>: Enlaces de navegación y llamados a la acción.
-<button>, <input>: Para la búsqueda y acciones de usuario.
-Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeModal)
+- <html>: Elemento raíz del documento.
+- <head>: Contiene metadatos, enlaces a hojas de estilo y scripts.
+- <body>: Alberga todo el contenido visible de la página.
+- <div>: Elemento contenedor usado en muchas partes.
+- <section>: Divide el contenido en secciones (como encuestas, derechos de autor).
+- <nav>: Barra de navegación para los menús.
+- <header>: Encabezado principal del sitio.
+- <footer>: Pie de página con enlaces e información legal.
+- <style>, <script>, <noscript>: Para estilos y scripts.
+- <link>: Cargar hojas de estilo externas.
+- <img>: Inserción de imágenes (como el logo y banners).
+- <a>: Enlaces de navegación y llamados a la acción.
+- <button>, <input>: Para la búsqueda y acciones de usuario.
+- Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeModal)
 
 # La página está estructurada de la siguiente forma:
  Encabezado (Header):
