@@ -1,5 +1,4 @@
-####
-Parte 1: Crea tu primera página HTML
+# Parte 1: Crea tu primera página HTML
 Crea un archivo HTML que contenga los siguientes elementos:
 -Un título principal usando la etiqueta <h1>.
 -Un párrafo descriptivo usando la etiqueta <p>.
@@ -7,9 +6,8 @@ Crea un archivo HTML que contenga los siguientes elementos:
 -Un enlace a otro sitio web usando la etiqueta <a>.
 Guarda el archivo con la extensión .html y ábrelo en tu navegador para ver cómo se muestra
 
-####HTML
-
-```
+#HTML
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,10 +34,9 @@ Guarda el archivo con la extensión .html y ábrelo en tu navegador para ver có
 </body>
 </html>
 ```
-####HTML
 
-####CSS
-```
+#CSS
+```css
 body {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -61,10 +58,10 @@ a {
 }
 }
 ```
-####
+
 La imagen diseñada está estructurada con un encabezado principal que presenta el nombre completo de la Universidad de las Fuerzas Armadas ESPE, seguido de una imagen institucional (logo oficial). Debajo, se encuentra una sección bien definida con el título “Datos de la actividad”, donde se organizan en formato de lista los detalles clave: modalidad, grado académico, asignatura, actividad, nombre del estudiante, tutor, NRC, fecha y un enlace externo a YouTube. 
 
-###Imagen Parte 1
+#Imagen Parte 1
 
 ![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/Pagina.jpg)
 
