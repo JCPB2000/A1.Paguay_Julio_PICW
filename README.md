@@ -1,5 +1,6 @@
-#Parte 1: Crea tu primera página HTML
-#HTML
+###Parte 1: Crea tu primera página HTML
+
+##HTML
 
 ```html
 <!DOCTYPE html>
