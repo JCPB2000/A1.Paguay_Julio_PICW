@@ -257,7 +257,8 @@ Varios bloques:
 
 ![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/x.jpg)
 ## Elementos HTML identificados
-Elementos HTML identificados
+
+```
 <html> y <head>: Estructura base de la página.
 <body>: Contenedor principal visible.
 <noscript>: Para mostrar mensajes si JavaScript está deshabilitado.
@@ -266,6 +267,7 @@ Elementos HTML identificados
 <nav>: Aparece en el pie de página con el atributo aria-label="Pie de página" para navegación.
 <main>: Contenedor principal para el contenido visual.
 <button> (visible en la parte de registro) y enlaces (para términos y políticas).
+```
 
 # La información se encuentra organizada de la siguiente forma.
 ## Encabezado:
