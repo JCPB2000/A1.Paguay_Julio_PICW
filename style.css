@@ -2,6 +2,8 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    margin: 20px;
+}
 
 img {
     max-width: 300px;
@@ -15,4 +17,30 @@ a {
     color: #0077cc;
     font-weight: bold;
 }
+
+/* Alineación de imagen + lista */
+.media-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* espacio entre imagen y lista */
+    margin: 20px 0;
+}
+
+.media-list img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.media-list ol,
+.media-list ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+li {
+    margin: 5px 0;
 }
