@@ -110,8 +110,8 @@ La barra de navegación justo debajo incluye las siguientes categorías:
 Un área destacada con un banner principal donde aparece Carolina Sánchez (Chef ecuatoriana), con el mensaje:
 - “ORGULLO ECUATORIANO”
 - “Conoce las recetas más representativas”.
-Botón rojo: “Descubre el Ecuador en Recetas”.
-Encima hay un aviso promocional:
+- Botón rojo: “Descubre el Ecuador en Recetas”.
+- Encima hay un aviso promocional:
  “OBTÉN EL 20% DE DTO. EN FLORES, FRUTAS Y VERDURAS, TODOS LOS MIÉRCOLES.”
 #### Modales y pop-ups:
 + Ventanas emergentes configuradas en <div> con IDs como:
