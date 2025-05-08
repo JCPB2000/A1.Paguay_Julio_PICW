@@ -1,4 +1,4 @@
-# Parte 1: Crea tu primera página HTML
+    # Parte 1: Crea tu primera página HTML
 
 ## HTML
 
@@ -97,15 +97,15 @@ Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeMo
 + Botones destacados:
   + Comprar por Tipti (botón naranja). 
   + Consulta por WhatsApp (botón verde).
-Información sobre la tienda local: “Supermaxi San Gabriel, a 5.67 KMS.: Cambiar”.
-La barra de navegación justo debajo incluye las siguientes categorías:
--SÚPER OFERTAS
--AFILIACIÓN
--BENEFICIOS
--CATÁLOGOS
--EMPRESA
--LOCALES
--MÁS
++ Información sobre la tienda local: “Supermaxi San Gabriel, a 5.67 KMS.: Cambiar”.
++ La barra de navegación justo debajo incluye las siguientes categorías:
+- SÚPER OFERTAS
+- AFILIACIÓN
+- BENEFICIOS
+- CATÁLOGOS
+- EMPRESA
+- LOCALES
+- MÁS
 #### Contenido principal:
 Un área destacada con un banner principal donde aparece Carolina Sánchez (Chef ecuatoriana), con el mensaje:
 - “ORGULLO ECUATORIANO”
