@@ -324,7 +324,7 @@ La sección diseñada presenta el título general "Mis Películas y Canciones Fa
 
 ![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/PeliculaCancion.jpg)
 
-## HTNL
+## HTML
 ```html
 <!DOCTYPE html>
 <html lang="es">
