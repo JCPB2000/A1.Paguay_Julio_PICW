@@ -94,9 +94,9 @@ Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeMo
 #### Encabezado (Header):
 -Incluye el logo de Supermaxi (el placer de comprar).
 -Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
-+Botones destacados:
-  +Comprar por Tipti (botón naranja). 
-  +Consulta por WhatsApp (botón verde).
++ Botones destacados:
+  + Comprar por Tipti (botón naranja). 
+  + Consulta por WhatsApp (botón verde).
 Información sobre la tienda local: “Supermaxi San Gabriel, a 5.67 KMS.: Cambiar”.
 La barra de navegación justo debajo incluye las siguientes categorías:
 -SÚPER OFERTAS
@@ -114,10 +114,10 @@ Botón rojo: “Descubre el Ecuador en Recetas”.
 Encima hay un aviso promocional:
  “OBTÉN EL 20% DE DTO. EN FLORES, FRUTAS Y VERDURAS, TODOS LOS MIÉRCOLES.”
 #### Modales y pop-ups:
-+Ventanas emergentes configuradas en <div> con IDs como:
-  +promo-bugatti
-  +nollas-bugatti
-  +shareRecipeModal
++ Ventanas emergentes configuradas en <div> con IDs como:
+  + promo-bugatti
+  + nollas-bugatti
+  + shareRecipeModal
 Estas aparecen para mostrar promociones especiales o para compartir recetas y otros contenidos de interés.
 #### Pie de página (Footer):
 Dividido en varias columnas visibles:
