@@ -65,7 +65,7 @@ La imagen diseñada está estructurada con un encabezado principal que presenta 
 
 # Parte 2: Analiza una página web existente
 
-#Imagen Parte 1
+#Imagen Parte 2
 
 ![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/Supermaxi.jpg)
 
@@ -73,7 +73,7 @@ La imagen diseñada está estructurada con un encabezado principal que presenta 
 
 ## Los elementos que se pueden identificar son los siguientes:
 
-```html
+```
 <html>: Elemento raíz del documento.
 <head>: Contiene metadatos, enlaces a hojas de estilo y scripts.
 <body>: Alberga todo el contenido visible de la página.
@@ -92,8 +92,8 @@ Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeMo
 
 # La página está estructurada de la siguiente forma:
 #### Encabezado (Header):
--Incluye el logo de Supermaxi (el placer de comprar).
--Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
+- Incluye el logo de Supermaxi (el placer de comprar).
+- Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
 + Botones destacados:
   + Comprar por Tipti (botón naranja). 
   + Consulta por WhatsApp (botón verde).
@@ -148,4 +148,174 @@ Imagen de Crédito Favorito (servicio financiero).
 #### Franja inferior:
 Texto legal:
 “Todos los derechos reservados® Corporación Favorita. 2025”
+
+# Parte 3: Investigación
+## Visita  de 3 sitios Web
+#Imagen VISITA 1 Youtube
+
+![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/youtube.jpg)
+## Elementos HTML identificados
+```
+<html> y <head>: Estructura base del documento.
+<body>: Contiene todo el contenido visible.
+<script>: Muchos scripts para cargar funciones y rastrear eventos (YouTube usa intensivamente JavaScript).
+<ytd-app>: Etiqueta personalizada (Web Component) usada por YouTube para su estructura principal.
+<iron-iconset-svg> y <iron-iconset-svg name="...">: Iconos SVG (parte de Polymer, un framework que usa YouTube).
+<link>: Para cargar hojas de estilo externas.
+<iframe>: Inserta contenido externo (como el módulo de autenticación de Google).
+```
+
+# La información se encuentra organizada de la siguiente forma.
+ ## Encabezado (Header):
+La parte superior contiene el logo de YouTube, barra de búsqueda y accesos rápidos (subir videos, notificaciones, perfil).
+
+
+ ## Menú de navegación (Sidebar):
+A la izquierda (no siempre visible en las capturas) suele haber enlaces a secciones como “Inicio”, “Tendencias”, “Suscripciones”.
+
+
+## Contenido principal:
+Compuesto por filas de videos (miniaturas + títulos + vistas). Cada video está dentro de un bloque que se repite, probablemente gestionado por Web Components como <ytd-rich-item-renderer> (no se muestra en las capturas pero es típico en YouTube).
+
+
+## Scripts y recursos:
+Hay muchas etiquetas <script> que cargan funciones internas para manejar dinámicamente todo el sitio (eventos de usuario, carga de videos, etc.).
+
+
+## Pie de página (Footer):
+No está visible en estas capturas, pero usualmente YouTube incluye allí enlaces a políticas, ayuda, etc.
+
+
+#Imagen VISITA 2 Wikipedia
+
+![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/Wikipedia.jpg)
+## Elementos HTML identificados
+
+
+# Elementos HTML identificados
+
+```
+<html>: El elemento raíz de la página.
+<head> y <body>: Estructura principal del documento.
+<div>: Contenedores clave como main-wrapper, main-box, vector-header-container, etc.
+<header>: Encabezado principal de la página.
+<main>: Contenido principal (donde está el artículo).
+<p>, <h2>: Texto y encabezados.
+<a>: Enlaces de navegación.
+<script>: Scripts para funcionalidades dinámicas.
+<link>: Carga de estilos.
+<noscript>: Contenido alternativo si JavaScript está desactivado.
+<div class="mw-footer-container">: Contenedor para el pie de página (footer).
+<div class="main-footer">: Otra parte importante del pie de página.
+<img>: (visto en la parte visual para mostrar imágenes como la portada del artículo).
+```
+
+# La información se encuentra organizada de la siguiente forma.
+## Encabezado (Header):
+Incluye el logo de Wikipedia, barra de búsqueda y enlaces para iniciar sesión, crear cuenta y otras herramientas.
+
+
+## Navegación:
+Menú superior con enlaces como:
+
+
+-Portada
+-Discusión
+-Leer
+-Ver código fuente
+-Ver historial
+
+
+También tiene una barra lateral (no se ve completa aquí) donde usualmente está la navegación por categorías, idioma, etc.
+
+
+## Contenido principal:
+Incluye:
+
+
+-Un bloque destacado de bienvenida (por ejemplo: “Bienvenidos a Wikipedia”).
+-Artículos destacados (ejemplo: Don't Cry for Me Argentina).
+-Texto con enlaces, imágenes y otros recursos enriquecidos.
+
+
+##Todo está contenido dentro de elementos como:
+
+
+-main-wrapper
+-main-box
+-main-box-content
+
+
+## Pie de página (Footer):
+Varios bloques:
+
+
+-mw-footer-container y main-footer: donde aparecen enlaces a políticas, información sobre Wikipedia, y otros recursos legales o institucionales.
+-Sección para mostrar el tiempo de carga y otros detalles técnicos al final del documento.
+
+#Imagen VISITA 3 X Twitter
+
+![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/x.jpg)
+## Elementos HTML identificados
+Elementos HTML identificados
+<html> y <head>: Estructura base de la página.
+<body>: Contenedor principal visible.
+<noscript>: Para mostrar mensajes si JavaScript está deshabilitado.
+<div>: Usado intensivamente para la estructura de la página (por ejemplo, id="react-root", capas flexibles y de diseño).
+<script>: Muchos scripts para la carga dinámica y la funcionalidad.
+<nav>: Aparece en el pie de página con el atributo aria-label="Pie de página" para navegación.
+<main>: Contenedor principal para el contenido visual.
+<button> (visible en la parte de registro) y enlaces (para términos y políticas).
+
+# La información se encuentra organizada de la siguiente forma.
+## Encabezado:
+Muy simple: solo el logotipo de X en la parte superior izquierda. No hay menú clásico visible en esta página inicial.
+
+
+## Contenido principal:
+Un mensaje central destacado:
+ “Lo que está pasando ahora”
+ y el llamado a la acción: “Únete Hoy”.
+
+
+## Opciones para registrarse:
+
+
+-Registrarse con Google
+-Registrarse con Apple
+-Crear cuenta (botón azul).
+
+
+Enlaces a Términos de servicio, Política de privacidad y Uso de Cookies justo debajo del formulario de registro.
+
+
+## Pie de página (Footer):
+Confirmamos que sí existe un pie de página mediante la etiqueta <nav> (visto en la última imagen), que contiene enlaces como:
+
+
+- Información
+- Descarga la app
+- Centro de Ayuda
+- Condiciones de Servicio
+- Política de Privacidad
+- Política de cookies
+- Accesibilidad
+- Información de anuncios
+- Blog
+- Empleos
+- Recursos para marcas
+- Publicidad
+- Marketing
+- X para empresas
+- Desarrolladores
+- Guía
+- Configuración
+
+También se muestra un aviso legal: © 2025 X Corp.
+
+
+
+
+
+
 
