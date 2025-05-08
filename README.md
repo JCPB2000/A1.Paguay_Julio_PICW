@@ -91,10 +91,10 @@ Modales: <div> con clases especiales para ventanas emergentes (ej. shareRecipeMo
 ```
 
 # La página está estructurada de la siguiente forma:
- Encabezado (Header):
-Incluye el logo de Supermaxi (el placer de comprar).
-Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
-Botones destacados:
+#### Encabezado (Header):
+-Incluye el logo de Supermaxi (el placer de comprar).
+-Una barra de búsqueda que dice: “Busca productos, locales, recetas…”.
+#### Botones destacados:
 -Comprar por Tipti (botón naranja).
 -Consulta por WhatsApp (botón verde).
 Información sobre la tienda local: “Supermaxi San Gabriel, a 5.67 KMS.: Cambiar”.
@@ -130,7 +130,7 @@ Preguntas Frecuentes
 Quieres ser proveedor de Corporación Favorita
 Facturación Electrónica
 Proveedores
-  - INFORMACIÓN DE INTERÉS:
+- INFORMACIÓN DE INTERÉS:
 Términos y Condiciones
 Políticas de privacidad
 Convenio de afiliación
