@@ -316,6 +316,129 @@ Confirmamos que sí existe un pie de página mediante la etiqueta <nav> (visto e
 También se muestra un aviso legal: © 2025 X Corp.
 
 
+# Parte 4: Listas en HTML
+## Se añade en el código anterior a las listas.
+La sección diseñada presenta el título general "Mis Películas y Canciones Favoritas", seguido de dos bloques bien diferenciados. El primer bloque muestra la lista de películas favoritas, acompañada de una imagen destacada que recopila diversos pósters cinematográficos; a la derecha se encuentra la lista ordenada de las películas seleccionadas, lo que proporciona un equilibrio visual y facilita la identificación de cada elemento. El segundo bloque corresponde a las canciones favoritas, donde se incluye una imagen con portadas de álbumes representativos y, a su lado, una lista desordenada con los títulos y artistas. Toda la estructura está centrada y organizada utilizando un diseño flexible, lo que permite alinear de manera armoniosa las imágenes y las listas, ofreciendo una presentación clara y atractiva al usuario.
+
+#Imagen Mis Películas y Canciones Favoritas
+
+![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/PeliculaCancion.jpg)
+
+## HTNL
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Universidad de las Fuerzas Armadas ESPE</h1>
+    <img src="espe.png" alt="Imagen de mi actividad">
+   
+    <section>
+        <h2>Datos de la actividad</h2>
+        <p><strong>Modalidad:</strong> En línea</p>
+        <p><strong>Grado:</strong> Ingeniería en Tecnologías de la Información</p>
+        <p><strong>Asignatura:</strong> Programación Integrativa de Componentes Web</p>
+        <p><strong>Actividad:</strong> Primer Parcial</p>
+        <p><strong>Estudiante:</strong> Julio Paguay</p>
+        <p><strong>Tutor:</strong> Ing. Criollo Chanchicocha Vilmer David</p>
+        <p><strong>NRC:</strong> 23407</p>
+        <p><strong>Fecha:</strong> 07/05/2025</p>
+        <p>Enlace: <a href="https://youtu.be/q8fK4La_jmM?si=kNa78kXA6yhRAxfo" target="_blank">Youtube</a></p>
+    </section>
+
+
+    <section>
+        <h2>Mis Películas y Canciones Favoritas</h2>
+
+
+        <h3>Películas favoritas</h3>
+        <div class="media-list">
+            <img src="https://ih1.redbubble.net/image.3120496015.9028/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Posters de películas">
+            <ol>
+                <li>Titanic</li>
+                <li>Sing</li>
+                <li>Matrix</li>
+                <li>Avatar</li>
+                <li>Gladiador</li>
+            </ol>
+        </div>
+
+
+        <h3>Canciones favoritas</h3>
+        <div class="media-list">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJBpq-xZ5hH302X_9fSCKuxB7xavJsWMatg&s" alt="Portadas de discos">
+            <ul>
+                <li>Nuestro Juramento - Julio Jaramillo</li>
+                <li>Hotel California - Eagles</li>
+                <li>Imagine - John Lennon</li>
+                <li>A Dios le Pido - Juanes</li>
+                <li>Senderito de Amor - Paulina Tamayo</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
+```
+
+## CSS
+```css
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+
+img {
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+
+/* Alineación de imagen + lista */
+.media-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* espacio entre imagen y lista */
+    margin: 20px 0;
+}
+
+
+.media-list img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+
+.media-list ol,
+.media-list ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+
+li {
+    margin: 5px 0;
+}
+```
 
 
 
