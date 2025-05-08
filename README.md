@@ -35,6 +35,7 @@ Guarda el archivo con la extensión .html y ábrelo en tu navegador para ver có
     </section>
 </body>
 </html>
+```
 ####HTML
 
 ####CSS
@@ -59,9 +60,13 @@ a {
     font-weight: bold;
 }
 }
-
+```
 ####
 La imagen diseñada está estructurada con un encabezado principal que presenta el nombre completo de la Universidad de las Fuerzas Armadas ESPE, seguido de una imagen institucional (logo oficial). Debajo, se encuentra una sección bien definida con el título “Datos de la actividad”, donde se organizan en formato de lista los detalles clave: modalidad, grado académico, asignatura, actividad, nombre del estudiante, tutor, NRC, fecha y un enlace externo a YouTube. 
 
-###Images
+###Imagen Parte 1
+
+![](https://github.com/JCPB2000/A1.Paguay_Julio_PICW/blob/main/img/Pagina.jpg)
+
+> Primera parte.
 
