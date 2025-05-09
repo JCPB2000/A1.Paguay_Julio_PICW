@@ -5,10 +5,12 @@ body {
     margin: 20px;
 }
 
+
 img {
     max-width: 300px;
     margin: 20px 0;
 }
+
 
 a {
     display: inline-block;
@@ -17,6 +19,7 @@ a {
     color: #0077cc;
     font-weight: bold;
 }
+
 
 /* Alineación de imagen + lista */
 .media-list {
@@ -27,12 +30,14 @@ a {
     margin: 20px 0;
 }
 
+
 .media-list img {
     max-width: 300px;
     height: auto;
     border: 2px solid #ccc;
     border-radius: 8px;
 }
+
 
 .media-list ol,
 .media-list ul {
@@ -41,6 +46,9 @@ a {
     font-size: 16px;
 }
 
+
 li {
     margin: 5px 0;
 }
+
+
