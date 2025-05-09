@@ -18,12 +18,11 @@ a {
     font-weight: bold;
 }
 
-/* Alineación de imagen + lista */
 .media-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* espacio entre imagen y lista */
+    gap: 30px; 
     margin: 20px 0;
 }
 
