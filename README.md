@@ -8,26 +8,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Actividad 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/style.css/style.css">
 </head>
 <body>
     <h1>Universidad de las Fuerzas Armadas ESPE</h1>
-    <img src="espe.png" alt="Imagen de mi actividad">
-   
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2OUKG39mJ-o2Q4SzJCY-XcW7FB54mPUMJTMRF3huxwdewAk9gWOsZP4QsKouNqmSe9ik&usqp=CAU" alt="Imagen de mi actividad">
+    
     <section>
         <h2>Datos de la actividad</h2>
         <p><strong>Modalidad:</strong> En línea</p>
         <p><strong>Grado:</strong> Ingeniería en Tecnologías de la Información</p>
         <p><strong>Asignatura:</strong> Programación Integrativa de Componentes Web</p>
-        <p><strong>Actividad:</strong>  Primer Parcial</p>
+        <p><strong>Actividad:</strong> Crea tu primera página HTML</p>
         <p><strong>Estudiante:</strong> Julio Paguay</p>
         <p><strong>Tutor:</strong> Ing. Criollo Chanchicocha Vilmer David</p>
         <p><strong>NRC:</strong> 23407</p>
         <p><strong>Fecha:</strong> 07/05/2025</p>
-        Enlace: <a href="https://youtu.be/q8fK4La_jmM?si=kNa78kXA6yhRAxfo" target="_blank"> Youtube </a>
+        <p>Enlace: <a href="https://youtu.be/q8fK4La_jmM?si=kNa78kXA6yhRAxfo" target="_blank">Youtube UFA-ESPE</a></p>
     </section>
-</body>
-</html>
+
 ```
 
 #CSS
@@ -36,13 +35,13 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-
+    margin: 20px;
+}
 
 img {
     max-width: 300px;
     margin: 20px 0;
 }
-
 
 a {
     display: inline-block;
@@ -51,7 +50,33 @@ a {
     color: #0077cc;
     font-weight: bold;
 }
+
+.media-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    margin: 20px 0;
 }
+
+.media-list img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.media-list ol,
+.media-list ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+li {
+    margin: 5px 0;
+}
+
 ```
 
 La imagen diseñada está estructurada con un encabezado principal que presenta el nombre completo de la Universidad de las Fuerzas Armadas ESPE, seguido de una imagen institucional (logo oficial). Debajo, se encuentra una sección bien definida con el título “Datos de la actividad”, donde se organizan en formato de lista los detalles clave: modalidad, grado académico, asignatura, actividad, nombre del estudiante, tutor, NRC, fecha y un enlace externo a YouTube. 
@@ -331,29 +356,27 @@ La sección diseñada presenta el título general "Mis Películas y Canciones Fa
 <head>
     <meta charset="UTF-8">
     <title>Actividad 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/style.css/style.css">
 </head>
 <body>
     <h1>Universidad de las Fuerzas Armadas ESPE</h1>
-    <img src="espe.png" alt="Imagen de mi actividad">
-   
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2OUKG39mJ-o2Q4SzJCY-XcW7FB54mPUMJTMRF3huxwdewAk9gWOsZP4QsKouNqmSe9ik&usqp=CAU" alt="Imagen de mi actividad">
+    
     <section>
         <h2>Datos de la actividad</h2>
         <p><strong>Modalidad:</strong> En línea</p>
         <p><strong>Grado:</strong> Ingeniería en Tecnologías de la Información</p>
         <p><strong>Asignatura:</strong> Programación Integrativa de Componentes Web</p>
-        <p><strong>Actividad:</strong> Primer Parcial</p>
+        <p><strong>Actividad:</strong> Crea tu primera página HTML</p>
         <p><strong>Estudiante:</strong> Julio Paguay</p>
         <p><strong>Tutor:</strong> Ing. Criollo Chanchicocha Vilmer David</p>
         <p><strong>NRC:</strong> 23407</p>
         <p><strong>Fecha:</strong> 07/05/2025</p>
-        <p>Enlace: <a href="https://youtu.be/q8fK4La_jmM?si=kNa78kXA6yhRAxfo" target="_blank">Youtube</a></p>
+        <p>Enlace: <a href="https://youtu.be/q8fK4La_jmM?si=kNa78kXA6yhRAxfo" target="_blank">Youtube UFA-ESPE</a></p>
     </section>
-
 
     <section>
         <h2>Mis Películas y Canciones Favoritas</h2>
-
 
         <h3>Películas favoritas</h3>
         <div class="media-list">
@@ -366,7 +389,6 @@ La sección diseñada presenta el título general "Mis Películas y Canciones Fa
                 <li>Gladiador</li>
             </ol>
         </div>
-
 
         <h3>Canciones favoritas</h3>
         <div class="media-list">
@@ -382,6 +404,7 @@ La sección diseñada presenta el título general "Mis Películas y Canciones Fa
     </section>
 </body>
 </html>
+
 ```
 
 ## CSS
@@ -393,12 +416,10 @@ body {
     margin: 20px;
 }
 
-
 img {
     max-width: 300px;
     margin: 20px 0;
 }
-
 
 a {
     display: inline-block;
@@ -408,16 +429,13 @@ a {
     font-weight: bold;
 }
 
-
-/* Alineación de imagen + lista */
 .media-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* espacio entre imagen y lista */
+    gap: 30px; 
     margin: 20px 0;
 }
-
 
 .media-list img {
     max-width: 300px;
@@ -426,7 +444,6 @@ a {
     border-radius: 8px;
 }
 
-
 .media-list ol,
 .media-list ul {
     text-align: left;
@@ -434,10 +451,10 @@ a {
     font-size: 16px;
 }
 
-
 li {
     margin: 5px 0;
 }
+
 ```
 
 
